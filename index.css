@@ -1,0 +1,348 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+}
+header .logo{
+    width: 30%;
+    height: 100px;
+}
+.logo{
+    text-align: center;
+}
+header nav{
+    width: 70%;
+    height: 100px;
+}
+nav{
+    text-align: right;
+    margin-top: 30px;
+    
+}
+button:last-child{
+    margin-right: 20px;
+}
+nav button{
+    display: inline-block;
+    border: none;
+    background-color:blue;
+    color:white;
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+.float{
+    float: left;
+}
+.clearfix{
+    clear: both;
+    display: table;
+}
+.main{
+    width: 100%;
+    height: 80vh;
+}
+.main img{
+    width: 50%;
+    height: 80vh;
+}
+
+.main .content{
+    width: 50%;
+    height: 80vh;
+}
+.content h1{
+    color: blue
+    
+}
+.content button{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left: 30%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: black;
+    cursor:pointer;
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about h1{
+    text-align: center;
+    color: blue;
+
+}
+.about{
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+    text-align: justify;
+}
+.about p{
+    line-height: 20px;
+}
+.bg{
+    background-image: url("	https://www.icabstransport.com/images/news/bg1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 115vh;
+}
+.bg-dark{
+background-color: rgba(0, 0, 0, 0.74);
+text-align: center;
+color: white;
+padding-bottom: 40px;
+}
+.services h1{
+    text-align: center;
+    color: blue;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.services p{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.services figure{
+    width: 28%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin:20px;
+}
+figure img{
+    width: 100%;
+}
+figcaption h2{
+    text-align: center;
+    color: blue;
+}
+figcaption p{
+    text-align: justify;
+    padding: 10px;
+}
+figure button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: white;
+}
+.transport1{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    margin: auto;
+}
+.request{
+    width: 100%;
+    height: 40vh;
+}
+.request h1{
+    text-align: center;
+    color: blue;
+    padding-top: 100px;
+}
+.request p{
+    text-align: center;
+}
+.contact img{
+    width: 100%;
+}
+.contactform{
+    width: 50%;
+    text-align: center;
+    display: flex;
+}
+.contactform button{
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+
+}
+.contactform button:hover{
+    background-color: black;
+    color: white;
+}
+.contactform input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+}
+.achievements h1{
+    padding-top: 30px;
+    text-align: center;
+    color:white;
+
+}
+.calender{
+    width: 25%;
+    height: 40px;
+}
+.calender img{
+    width: 25px;
+    height: 25px;
+    margin-top: 70px;
+    margin-left: 140px;
+
+}
+.calender p{
+    color: white;
+    text-align: center;
+}
+.bg1{
+    background-image: url("employee.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+}
+.dark{
+    width: 1200px;
+    height: 60vh;
+    background-color:rgba(0, 0, 0, 0.774);
+    padding-top: 15px;
+}
+.process1{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+.process1 h1{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    color: blue;
+}
+.process1 p{
+    text-align: center;
+}
+.process{
+    width: 25%;
+    height: 40px;
+}
+.process img{
+    width: 25px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 140px;
+
+}
+.process p{
+    text-align: center;
+    padding: 10px;
+}
+.process img:hover{
+    transform: rotate(30deg);
+    width: 50px;
+}
+.calender img:hover{
+    transform: rotate(30deg);
+    width: 50px;
+    height: 30px;
+}
+.special2{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(13, 13, 95);
+}
+.special1 img{
+    width: 550px;
+    margin-right: 30px;
+}
+.supportform input{
+    padding: 20px;
+    margin-left: 80px;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.support h2{
+text-align: justify;
+margin-left: 80px;
+color: yellow;
+}
+.supportform ::placeholder{
+    color: black;
+}
+.process2{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+}
+.process2 h2{
+    text-align: center;
+    color: rgba(5, 5, 127, 0.781);
+}
+.process2 p{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.special3{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(13, 13, 95);
+}
+.reachus{
+    width: 100%;
+    height: 60vh;
+}
+.reachus h2{
+    text-align: left;
+    color: yellow;
+    width: 55%;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.reachus p{
+    text-align: left;
+    width: 50%;
+    height: 60vh;
+    margin-left: 50px;
+    color: white;
+}
+.copy{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(2, 2, 43);
+}
+.copy1{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 40px;
+    width: 300px;
+}
+li{
+    color: white;
+}
